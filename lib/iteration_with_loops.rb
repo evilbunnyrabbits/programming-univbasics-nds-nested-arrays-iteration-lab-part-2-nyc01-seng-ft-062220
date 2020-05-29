@@ -5,7 +5,6 @@ def find_min_in_nested_arrays(src)
     for temp in child_array do
       if temp < lowest_temp
         lowest_temp = temp
-
       end
     end
     lowest_temps_array.push(lowest_temp)
